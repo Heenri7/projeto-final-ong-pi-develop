@@ -1,0 +1,399 @@
+.logo-icon{
+    height: 40px;
+    margin: 5px;
+    transition: all 1s;
+}
+.logo-icon:hover{
+    transform: scale(1.3);
+}
+.bg-nav{
+    background-color: #d67328;
+    height: 50px;
+}
+.bg-light-icon{
+    background-color: white;
+    padding: 1px;
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.container-logo {
+    margin-right: 20px;
+}
+
+.container-links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container-links a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+    padding: 8px 12px;
+    background-color: #FF8C1A;
+    border-radius: 24px;
+    transition: all 0.2s;
+}
+
+.container-links a:hover {
+    background-color: #ff8000;
+    transform: scale(1.2);
+    font-weight: 800;
+    border: #fff solid 1px;
+    text-decoration: none;
+}
+
+.container-button-nav {
+    margin-left: auto;
+}
+
+.button-nav-apadrinhe {
+    background: linear-gradient(90deg, #FF8C1A 60%, #C75A06 100%);
+    color: #fff;
+    border: #C75A06 solid 2px;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.button-nav-apadrinhe:hover {
+    background: #cc7000;
+    text-decoration: underline;
+}
+.nav-selected{
+    background-color: #d66b00 !important;
+    border: #6EC1E4 solid 2px;
+}
+.nav-selected:hover{
+    background-color: #FF8C1A !important;
+}
+.ong-aviso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FF8C1A;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 16px 3px 6px;
+    border-radius: 0 0 12px 0;
+    width: fit-content;
+    margin: 0;
+    z-index: 2;
+}
+.banner-ajuda {
+    position: relative;
+    background-image: url(https://fabricadesonhos.ong.br/wp-content/uploads/2021/07/Fale-com-a-gente.jpeg);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: right;
+}
+.banner-ajuda h1{
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin-right: 50px;
+    font-size: 50px;
+}
+.banner-ajuda::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    pointer-events: none;
+}
+.card-body{
+    background: #ffb881;
+}
+.container-inputs{
+    margin-top: 100px;
+}
+.container-dados{
+    gap: 150px;
+    margin-bottom: 100px;
+}
+.section-informacoes{
+    background: #9e4c0e;
+    padding: 40px 0px;
+    background-position: center;
+}
+.dados-box{
+    flex-direction: column;
+    align-items: center;
+}
+.dados-box p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #6ec7ff;
+    font-weight: 500;
+}
+.dados-box h1{
+    color: white;
+}
+.container-localizacao{
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.primeiro-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.primeiro-info p{
+    color: white;
+    font-weight: 500;
+}
+.primeiro-info img{
+    width: 90px;
+}
+.segunda-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.segunda-info p{
+    color: white;
+    font-weight: 500;
+}
+.segunda-info img{
+    width: 90px;
+}
+footer {
+    background-color: #ff8f39;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+.container-footer {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    gap: 40px;
+}
+.container-footer h1{
+    color: #e9e9e9;
+}
+.container-footer p{
+    font-weight: 700;
+}
+.container-footer img{
+    transition: all 0.5s;
+    width: 100px;
+}
+.container-footer img:hover{    
+    transform: scale(1.2);
+}
+.button-footer{
+    background-color: #d67601;
+    color: #e9e9e9;
+    font-weight: 700;
+    width: 180px;
+    height: 40px;
+    border-radius: 12px;
+}
+.button-footer:hover{
+    background-color: transparent;
+    color: #111;
+    font-weight: 800;
+    border: #111 solid 2px;
+}
+.button-footer:active{
+    border: #111 solid 4px;
+}
+.shadow-input{
+    box-shadow: rgba(0, 0, 0, 0.226) 2px 2px 2px 2px;
+}
+.giro-icon{
+    transition: all 0.3s;
+}
+.giro-icon:hover{
+    transform: scale(1.2) rotate(-5deg);
+    filter: brightness(1.2);
+}
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.container-footer img:hover {
+    transform: scale(1.2) rotate(-5deg);
+    filter: brightness(1.2);
+}
+@media (max-width: 1240px) {
+    .container-links {
+        display: none;
+        flex-direction: column;
+        background: #FF8C1A;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        gap: 0;
+    }
+    .container-links.show {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .navbar-content {
+        position: relative;
+    }
+}
+@media (max-width: 768px) {
+    .banner-ajuda {
+        height: 200px;
+        justify-content: center;
+        background-position: center;
+    }
+    .banner-ajuda h1 {
+        font-size: 28px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .section-contato {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .container-texts {
+        margin: 0 0 20px 0 !important;
+        width: 100%;
+    }
+    .container-inputs {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .container-dados {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .container-footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+    .container-footer img {
+        width: 70px;
+    }
+    .button-footer {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .primeira-parte-footer,
+    .segunda-parte-footer,
+    .terceira-parte-footer,
+    .quarta-parte-footer,
+    .quinta-parte-footer {
+        width: 100%;
+        text-align: center;
+    }
+    .input-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .input-group .form-control,
+    .input-group .input-group-text,
+    .input-group .form-select {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .dados-box h1 {
+        font-size: 2rem;
+    }
+    .dados-box p {
+        font-size: 1rem;
+    }
+}   
+@media (max-width: 950px) {
+    .container-dados {
+        flex-direction: column !important;
+        gap: 24px !important;
+        align-items: center !important;
+    }
+    .dados-box {
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        gap: 16px;
+    }
+    .dados-box h1 {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .dados-box p {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .container-localizacao {
+        flex-direction: column !important;
+        gap: 16px !important;
+        align-items: flex-start !important;
+        width: 100%;
+        margin-top: 24px;
+    }
+    .primeiro-info, .segunda-info {
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 12px;
+        width: 100%;
+    }
+    .primeiro-info img, .segunda-info img {
+        width: 40px;
+        min-width: 40px;
+    }
+    .primeiro-info p, .segunda-info p {
+        font-size: 0.95rem;
+        margin-bottom: 0;
+        word-break: break-word;
+    }
+}
+@media (max-width: 600px) {
+  .btn-control {
+    width: 36px;
+    height: 32px;
+    font-size: 1em;
+  }
+  .boletins-info-box h1 {
+    font-size: 1em;
+  }
+}
+footer .container-footer {
+  flex-wrap: wrap;
+  gap: 16px;
+}
+body, html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
